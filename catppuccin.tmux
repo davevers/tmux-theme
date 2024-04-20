@@ -29,7 +29,7 @@ main() {
 
   # load local theme
   local theme
-  theme="$(get_tmux_option "@catppuccin_flavour" "mocha")"
+  theme="$(get_tmux_option "@theme_flavor" "mocha")"
   # NOTE: Pulling in the selected theme by the theme that's being set as local
   # variables.
   # https://github.com/dylanaraps/pure-sh-bible#parsing-a-keyval-file
@@ -42,7 +42,7 @@ main() {
     # '$key' stores the key.
     # '$val' stores the value.
     eval "local $key"="$val"
-  done <"${PLUGIN_DIR}/catppuccin-${theme}.tmuxtheme"
+  done <"${PLUGIN_DIR}/${theme}.tmuxtheme"
 
   # status general
   local status_default status_justify status_background message_background

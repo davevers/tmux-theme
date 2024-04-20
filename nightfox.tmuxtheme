@@ -1,0 +1,17 @@
+# NOTE: you can use vars with $<var> and ${<var>} as long as the str is double quoted: ""
+# WARNING: hex colors can't contain capital letters
+
+# --> Nightfox theme
+thm_bg="#192330"
+thm_fg="#cdcecf"
+thm_cyan="#63cdcf"
+thm_black="#393b44"
+thm_gray="#29394f"
+thm_magenta="#9d79d7"
+thm_pink="#d67ad4"
+thm_red="#c94f6d"
+thm_green="#81b29a"
+thm_yellow="#dbc074"
+thm_blue="#719cd7"
+thm_orange="#f4a261"
+thm_black4="#393b44"
